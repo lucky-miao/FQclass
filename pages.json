@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		}
+	    ,{
+            "path" : "pages/personal/personal",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/learn/learn",
+            "style" : {
+				"navigationBarTitleText": "五园财商-学习"
+			}
+        }
+        ,{
+            "path" : "pages/course-select/course-select",
+            "style" : {
+				"navigationBarTitleText": "五园财商-课程精选"
+			}
+        }
+        ,{
+            "path" : "pages/listen-course/listen-course",
+            "style" : {
+					"navigationBarTitleText": "五园财商-每日听书"
+			}
+        }
+        ,{
+            "path" : "pages/message-note/message-note",
+            "style" : {
+				"navigationBarTitleText": "五园财商-消息中心"
+			}
+        }
+        ,{
+            "path" : "pages/class-detail/class-detail",
+            "style" : {
+				"navigationBarTitleText": "五园财商-课程详情"
+			}
+        }
+        ,{
+            "path" : "pages/class-text/class-text",
+            "style" : {
+				"navigationBarTitleText": "五园财商-课程内容"
+			}
+        }
+        ,{
+            "path" : "pages/h5/h5",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "五园财商",
+		// "navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#FC7184",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/images/icon1.png",
+	        "selectedIconPath": "static/images/icon1-able.png",
+	        "text": "推荐"
+	    },
+		{
+		    "pagePath": "pages/learn/learn",
+		    "iconPath": "static/images/icon2.png",
+		    "selectedIconPath": "static/images/icon2-able.png",
+		    "text": "学习"
+		},{
+	        "pagePath": "pages/personal/personal",
+			"iconPath": "static/images/icon3.png",
+			"selectedIconPath": "static/images/icon3-able.png",
+	        "text": "我的"
+	    }]
+	}
+}
